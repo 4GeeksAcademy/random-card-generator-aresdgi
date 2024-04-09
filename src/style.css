@@ -1,1 +1,39 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  padding: 0;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#card-container {
+  position: relative;
+}
+
+#card {
+  width: 150px;
+  height: 200px;
+
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 54px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.red-suit {
+  color: red;
+}
+
+.black-suit {
+  color: black;
+}
